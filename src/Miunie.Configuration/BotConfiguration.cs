@@ -9,6 +9,7 @@ namespace Miunie.Configuration
         private const string DiscordBotTokenKey = "DiscordToken";
 
 
+
         public BotConfiguration(IConfiguration config)
         {
             _config = config;
